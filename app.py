@@ -1,6 +1,8 @@
 import os
-import openai_whisper as whisper
-from openai_whisper import load_model
+import importlib.util
+spec = importlib.util.find_spec("whisper")
+print(f"Whisper path: {spec.origin}")
+import whisper 
 import gradio as gr
 import torch
 import psutil
