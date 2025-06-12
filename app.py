@@ -1,5 +1,6 @@
 import os
-import whisper
+import openai_whisper as whisper
+from openai_whisper import load_model
 import gradio as gr
 import torch
 import psutil
