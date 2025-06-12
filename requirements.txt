@@ -1,0 +1,5 @@
+torch
+whisper
+gradio
+pydub
+psutil
